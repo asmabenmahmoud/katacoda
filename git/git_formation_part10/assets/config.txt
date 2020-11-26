@@ -1,0 +1,7 @@
+Listen 80
+<VirtualHost *:80>
+    DocumentRoot "/www/example1"
+    ServerName www.example.com
+  
+    # Autres directives ici
+</VirtualHost>

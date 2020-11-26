@@ -1,0 +1,39 @@
+{
+  "noindex": true,
+  "title": "Formation GIT: Sommaire",
+  "description": "Cette partie décrit le sommaire de la formation à Git.",
+  "time": "60 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Sommaire",
+        "text": "step1.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {
+          "file": "*",
+          "target": "/root/course"
+        }
+      ]
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "uieditorpath": "/root/course",
+    "showdashboard": true,
+    "dashboards": [
+    ]
+  },
+  "backend": {
+    "imageid": "kubernetes-cluster-running"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "noindex": true,
+  "title": "Formation GIT: Notions de base",
+  "description": "Philosophie et rudiments de Git",
+  "time": "60 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Comment Git traite ses données: Snapshots vs. deltas",
+        "text": "step1.md"
+      },
+      {
+        "title": "Avec Git: Tout se fait en local ou presque",
+        "text": "step2.md"
+      },
+      {
+        "title": "Git et la vérification d'intégrité",
+        "text": "step3.md"
+      },
+      {
+        "title": "Git ne fait qu'ajouter des données",
+        "text": "step4.md"
+      },
+      {
+        "title": "Les 3 états d'un fichier dans Git",
+        "text": "step5.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "code": "env-init.sh",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+      ]
+    }
+  },
+  "environment": {
+        "uilayout": "terminal",
+        "uimessage1": "\u001b[32mYour Interactive Docker Host Terminal.\u001b[m\r\n"
+    },
+    "backend": {
+        "imageid": "docker"
+    }
+}

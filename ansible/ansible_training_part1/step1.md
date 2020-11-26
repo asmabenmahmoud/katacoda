@@ -1,0 +1,5 @@
+- Présentation d'ansible
+- Architecture
+- Préparation des environnements
+- Installation
+- Configuration

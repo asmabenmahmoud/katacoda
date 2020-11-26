@@ -1,0 +1,70 @@
+{
+  "noindex": true,
+  "title": "Formation GIT pour le DEVOPS: partie 6",
+  "description": "Gestion des l'historique des versions (annulations, commit,...)",
+  "time": "50 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": " Sommaire",
+        "text": "step1.md"
+      },
+      {
+        "title": "Historique des commits et rollbacks (reset)",
+        "text": "step2.md"
+      },
+      {
+        "title": "Lancement de la plateforme de Formation ",
+        "text": "step3.md"
+      },
+      {
+        "title": "Faire un Reset (rollbak) des Commits précédents",
+        "text": "step4.md"
+      },
+      {
+        "title": "Exercice 2: Création branche, ajout Fichier, reset hard",
+        "text": "step5.md",
+        "answer": "step5-answer.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "courseData": "env-init.sh",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {
+          "file": "config.txt",
+          "target": "~/"
+        },
+        {
+          "file": "apache2.conf",
+          "target": "~/"
+        },
+        {
+          "file": "index.html",
+          "target": "~/"
+        },
+        {
+          "file": "vhost.j2",
+          "target": "~/"
+        },
+        {
+          "file": "motd",
+          "target": "~/"
+        } 
+      ]
+    }
+  },
+  "environment": {
+        "uilayout": "terminal",
+        "uimessage1": "\u001b[32mYour Interactive Docker Host Terminal.\u001b[m\r\n"
+    },
+    "backend": {
+        "imageid": "docker"
+    }
+}

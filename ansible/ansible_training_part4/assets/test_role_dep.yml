@@ -1,0 +1,7 @@
+---
+- name: test role dependancies
+  hosts: web
+  gather_facts: no
+  roles:
+    - role1
+    - role2

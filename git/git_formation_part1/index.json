@@ -1,0 +1,49 @@
+{
+  "noindex": true,
+  "title": "Formation GIT: Brève histoire de Git et du versionning",
+  "description": "Introduction au versionning et ses différents modèles.",
+  "time": "60 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "C'est quoi un système de contrôle de version?",
+        "text": "step1.md"
+      },
+      {
+        "title": "Modèle 1: Système de contrôle de version local",
+        "text": "step2.md"
+      },
+      {
+        "title": "Modèle 2: Système de contrôle de version centralisé",
+        "text": "step3.md"
+      },
+      {
+        "title": "Modèle 3: Système de contrôle de version distribué",
+        "text": "step4.md"
+      },
+      {
+        "title": "Une brève histoire de Git",
+        "text": "step5.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "code": "env-init.sh",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+      ]
+    }
+  },
+  "environment": {
+        "uilayout": "terminal",
+        "uimessage1": "\u001b[32mYour Interactive Docker Host Terminal.\u001b[m\r\n"
+    },
+    "backend": {
+        "imageid": "docker"
+    }
+}

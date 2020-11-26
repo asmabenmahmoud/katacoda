@@ -1,0 +1,74 @@
+{
+  "noindex": true,
+  "title": "Formation GIT pour le DEVOPS: partie 10",
+  "description": "Git Flow ",
+  "time": "50 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": " Sommaire",
+        "text": "step1.md"
+      },
+      {
+        "title": "Architecture VM pour cette partie du cours ",
+        "text": "step2.md"
+      },
+      {
+        "title": "Préparation des environnements",
+        "text": "step3.md"
+      },
+      {
+        "title": "Utilisation du Git Flow",
+        "text": "step4.md"
+      },      
+      {
+        "title": "Exercice 1: création d'une release et livraison en prod",
+        "text": "step5.md",
+        "answer": "step5-answer.md"
+      },
+      {
+        "title": "Echanges & partages de releases, scan de release présentes 'tracking' ",
+        "text": "step6.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "courseData": "env-init.sh",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {
+          "file": "config.txt",
+          "target": "~/"
+        },
+        {
+          "file": "apache2.conf",
+          "target": "~/"
+        },
+        {
+          "file": "index.html",
+          "target": "~/"
+        },
+        {
+          "file": "vhost.j2",
+          "target": "~/"
+        },
+        {
+          "file": "motd",
+          "target": "~/"
+        } 
+      ]
+    }
+  },
+  "environment": {
+        "uilayout": "terminal",
+        "uimessage1": "\u001b[32mYour Interactive Docker Host Terminal.\u001b[m\r\n"
+    },
+    "backend": {
+        "imageid": "docker"
+    }
+}

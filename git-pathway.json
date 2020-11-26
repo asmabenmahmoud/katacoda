@@ -1,0 +1,62 @@
+{
+    "title": "Formations GIT",
+    "description": "Formation GIT étape par étape pour les débutants. L'essentiel pour devenir expert en Industrialisation & Versioning!",
+    "icon": "fa-katacoda",
+    "courses": [
+      {
+        "course_id": "git_formation_part0",
+        "title": "Formation Git: Sommaire",
+        "description": "Ce sommaire présente les différentes parties de cette formation d'initiation à Git"
+      },
+      {
+        "course_id": "git_formation_part1",
+        "title": "Formation GIT: partie 1",
+        "description": "Le versionning et une brève histoire de Git"
+      },
+      {
+        "course_id": "git_formation_part2",
+        "title": "Formation GIT: partie 2",
+        "description": "Philosophie et rudiments de Git"
+      },
+      {
+        "course_id": "git_formation_part3",
+        "title": "Formation GIT: partie 3",
+        "description": "Configuration de Git"
+      },
+      {
+        "course_id": "git_formation_part4",
+        "title": "Formation GIT: partie 4",
+        "description": "Initialiser & Cloner dépôt GIT"
+      },
+      {
+        "course_id": "git_formation_part5",
+        "title": "Formation GIT: partie 5",
+        "description": "Commandes de basespour le versioning  GIT"
+      },
+      {
+        "course_id": "git_formation_part6",
+        "title": "Formation GIT: partie 6",
+        "description": "Gestion des l'historique des versions (annulations, commit,...)"
+      },
+      {
+        "course_id": "git_formation_part7",
+        "title": "Formation GIT: partie 7",
+        "description": "Travail Collaboratif entre équipes, avec GIT"
+      },
+      {
+        "course_id": "git_formation_part8",
+        "title": "Formation GIT: partie 8",
+        "description": "Solutions, en cas de conflits du versioning sur Repository Central"
+      },
+      {
+        "course_id": "git_formation_part9",
+        "title": "Formation GIT: partie 9",
+        "description": "Git Flow pour le suivi et l'évolution des Releases"
+      },
+      {
+        "course_id": "git_formation_part10",
+        "title": "Formation GIT: partie 10",
+        "description": "Git Flow pour collaborer avec plusieurs équipes"
+      }
+    ]
+}

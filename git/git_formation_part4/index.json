@@ -1,0 +1,43 @@
+{
+  "noindex": true,
+  "title": "Formation GIT: Création et clonage d'un dépôt Git",
+  "description": "Les bases de Git",
+  "time": "60 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Création d'un nouveau dépôt Git ou réinitialisation d'un dépôt existant",
+        "text": "step1.md",
+        "code": "assets/autoload/pre-step-1.sh",
+        "answer": "step1-answer.md"
+      },
+      {
+        "title": "Création d'une copie locale d'un dépôt distant",
+        "text": "step2.md",
+        "answer": "step2-answer.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "code": "env-init.sh",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+      ]
+    }
+  },
+  "environment": {
+        "showdashboard": true,
+        "dashboard": "Dashboard",
+        "uilayout": "terminal-terminal-v1",
+        "uimessage1": "\u001b[32mYour Interactive Docker Host Terminal.\u001b[m\r\n"
+    },
+    "backend":{
+      "port":8080,
+      "dockerimage":"kubeadm-cluster2-running"
+    }
+}

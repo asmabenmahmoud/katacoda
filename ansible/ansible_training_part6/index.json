@@ -1,0 +1,50 @@
+{
+  "noindex": true,
+  "title": "Formation Ansible pour le DEVOPS: partie 6",
+  "description": "Les rôles, exercices",
+  "time": "50 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": " Sommaire",
+        "text": "step1.md"
+      },
+     {
+        "title": "Ansible: Les rôles",
+        "text": "step2.md"
+      },
+      {
+        "title": "Exercice 1: Utilisation des rôles pour installer le service ntp",
+        "text": "step3.md",
+        "answer": "step3-answer.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "courseData": "env-init.sh",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {
+          "file": "hosts.ini",
+          "target": "~/"
+        },
+        {
+          "file": "ntp.conf.j2",
+          "target": "~/"
+        } 
+      ]
+    }
+  },
+  "environment": {
+        "uilayout": "terminal",
+        "uimessage1": "\u001b[32mYour Interactive Docker Host Terminal.\u001b[m\r\n"
+    },
+    "backend": {
+        "imageid": "docker"
+    }
+}

@@ -1,0 +1,5 @@
+- Fichier d'inventaire
+- Fichier d'inventaire: les variables
+- Test de connectivité via ansible
+- Utilisation du SSH: installation/Configuration SSH
+- Utilisation du SSH: test de connexion

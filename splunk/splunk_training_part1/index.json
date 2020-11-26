@@ -1,0 +1,53 @@
+{
+  "noindex": true,
+  "title": "Formation SPLUNK: partie 1",
+  "description": "La gestion des logs",
+  "time": "40 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "C'est quoi un système de gestion des logs?",
+        "text": "step1.md"
+      },
+      {
+        "title": "Les principaux atouts de la gestion des logs",
+        "text": "step2.md"
+      },
+      {
+        "title": "Les principales utilisation d’utilisation des systèmes de gestion des logs",
+        "text": "step3.md"
+      },
+      {
+        "title": "Les logiciels du secteur",
+        "text": "step4.md"
+      },
+      {
+        "title": "La gestion des logs par Splunk",
+        "text": "step5.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "courseData": "env-init.sh",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {
+          "file": "image1.jpg",
+          "target": "~/"
+        }
+      ]
+    }
+  },
+  "environment": {
+        "uilayout": "terminal",
+        "uimessage1": "\u001b[32mYour Interactive Docker Host Terminal.\u001b[m\r\n"
+    },
+    "backend": {
+        "imageid": "docker"
+    }
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Formation SPLUNK",
+  "description": "Formation SPLUNK étape par étape pour les débutants. L'essentiel pour devenir expert en Log Management et Machine Data!",
+  "icon": "fa-katacoda",
+  "courses": [
+    {
+      "course_id": "Splunk_training_part0",
+      "title": "Formation SPLUNK: Sommaire",
+      "description": "Présentation des différentes parties de la formation d'initiation à Splunk"
+    },
+    {
+      "course_id": "Splunk_training_part1",
+      "title": "Formation SPLUNK: partie 1",
+      "description": "La gestion des logs"
+    },
+    {
+      "course_id": "Splunk_training_part2",
+      "title": "Formation SPLUNK: partie 2",
+      "description": "Introduction à Splunk : Caractéristiques et Architecture"
+    }
+  ]
+}

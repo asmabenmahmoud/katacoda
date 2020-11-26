@@ -1,0 +1,96 @@
+{
+  "noindex": true,
+  "title": "Formation Ansible pour DEVOPS: partie 5",
+  "description": "Les handlers et les templates, exercices",
+  "time": "50 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": " Sommaire",
+        "text": "step1.md"
+      },
+      {
+        "title": "Les Handlers: Exécuter des opérations sur changement",
+        "text": "step2.md"
+      },
+      {
+        "title": "Exercice 1: Utilisation des handlers",
+        "text": "step3.md",
+        "answer": "step3-answer.md"
+      },
+      {
+        "title": "Ansible: Les templates",
+        "text": "step4.md"
+      },
+      {
+        "title": "Exercice 2: Utilisation des templates",
+        "text": "step5.md",
+        "answer": "step5-answer.md"
+      },
+      {
+        "title": "Ansible: Les conditions",
+        "text": "step6.md"
+      },
+      {
+        "title": "Exercice 3: Utilisation des conditions avec when et register",
+        "text": "step7.md",
+        "answer": "step7-answer.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "courseData": "env-init.sh",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {
+          "file": "apache2.conf",
+          "target": "~/"
+        },
+        {
+          "file": "index.html",
+          "target": "~/"
+        },
+        {
+          "file": "vhost.j2",
+          "target": "~/"
+        },
+        {
+          "file": "exemple_template.j2",
+          "target": "~/"
+        },
+        {
+          "file": "exemple_liste_template.j2",
+          "target": "~/"
+        },
+        {
+          "file": "playbook_ex04.yml",
+          "target": "~/"
+        },
+        {
+          "file": "motd",
+          "target": "~/"
+        },
+        {
+          "file": "hosts.ini",
+          "target": "~/"
+        },
+        {
+          "file": "ntp.conf.j2",
+          "target": "~/"
+        } 
+      ]
+    }
+  },
+  "environment": {
+        "uilayout": "terminal",
+        "uimessage1": "\u001b[32mYour Interactive Docker Host Terminal.\u001b[m\r\n"
+    },
+    "backend": {
+        "imageid": "docker"
+    }
+}

@@ -1,0 +1,25 @@
+# fichier de configuration ntp
+driftfile  /var/lib/ntp/ntp.drift
+statistics loopstats peerstats clockstats
+filegen    loopstats  file loopstats  type day enable
+filegen    peerstats  file peerstats  type day enable
+filegen    clockstats file clockstats type day enable
+
+{% for ntp_server in ntp_servers %}
+server {{ ntp_server }} iburst
+{% endfor %}
+
+restrict -4 default kod notrap nomodify nopeer noquery
+restrict -6 default kod notrap nomodify nopeer noquery
+
+restrict 127.0.0.1
+restrict ::1
+
+{% if ansible_distribution_release == 'jessie' %}
+# Configuration specifique si on est sur une Jessie…
+{% elif ansible_distribution_release == 'xenial' %}
+# Configuration specifique si on est sur une Xenial…
+{% else %}
+# Configuration si on n'est ni sur une Xenial, ni sur une Jessie…
+{% endif %}
+# Configuration par defaut dans tous les cas…

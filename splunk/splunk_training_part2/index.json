@@ -1,0 +1,81 @@
+{
+  "noindex": true,
+  "title": "Formation SPLUNK: partie 2",
+  "description": "Le log management",
+  "time": "40 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Présentation de Splunk",
+        "text": "step2.md"
+      },
+      {
+        "title": "Module 1 - Caractéristiques",
+        "text": "step3.md"
+      },
+      {
+        "title": "Quiz module 1",
+        "text": "step4.md"
+      },
+      {
+        "title": "Module 2 - Architecture",
+        "text": "step5.md"
+      },
+      {
+        "title": "Quiz module 2",
+        "text": "step6.md"
+      },
+      {
+        "title": "Module 3 - Les données",
+        "text": "step7.md"
+      },
+      {
+        "title": "Quiz module 3",
+        "text": "step8.md"
+      },
+      {
+        "title": "Documentations utiles",
+        "text": "step9.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "courseData": "env-init.sh",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {
+          "file": "what_splunk_can_index.png",
+          "target": "~/"
+        },
+        {
+          "file": "splunk_enterprise.png",
+          "target": "~/"
+        },
+        {
+          "file": "splunk_enterprise_.png",
+          "target": "~/"
+        },
+        {
+          "file": "splunk_architecture.png",
+          "target": "~/"
+        },
+        {
+          "file": "enterprise-hero-screenshot.png",
+          "target": "~/"
+        }
+      ]
+    }
+  },
+  "environment": {
+        "uilayout": "terminal",
+        "uimessage1": "\u001b[32mYour Interactive Docker Host Terminal.\u001b[m\r\n"
+    },
+    "backend": {
+        "imageid": "docker"
+    }
+}

@@ -1,0 +1,65 @@
+{
+  "noindex": true,
+  "title": "Formation GIT: Configuration de Git",
+  "description": "Définir, modifier et supprimer des options de configuration pour Git.",
+  "time": "60 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "La commande git config",
+        "text": "step1.md"
+      },
+      {
+        "title": "Scope ou contexte de configuration",
+        "text": "step2.md",
+        "code": "assets/autoload/pre-step-2.sh",
+        "answer": "step2-answer.md"
+      },
+      {
+        "title": "Nommage et définition d'une valeur de configuration",
+        "text": "step3.md",
+        "answer": "step3-answer.md"
+      },
+      {
+        "title": "Supprimer une valeur de configuration",
+        "text": "step4.md",
+        "code": "assets/autoload/pre-step-4.sh",
+        "answer": "step4-answer.md"
+      },
+      {
+        "title": "Consulter une propriété de configuration",
+        "text": "step5.md",
+        "code": "assets/autoload/pre-step-5.sh",
+        "answer": "step5-answer.md"
+      },
+      {
+        "title": "Lister toutes propriétés de configuration définies",
+        "text": "step6.md"
+      },
+      {
+        "title": "Configuration minimale requise par Git",
+        "text": "step7.md",
+        "code": "assets/autoload/pre-step-7.sh"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "code": "env-init.sh",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+      ]
+    }
+  },
+  "environment": {
+        "uilayout": "terminal",
+        "uimessage1": "\u001b[32mYour Interactive Docker Host Terminal.\u001b[m\r\n"
+    },
+    "backend": {
+        "imageid": "docker"
+    }
+}
